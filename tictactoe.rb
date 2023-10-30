@@ -103,7 +103,7 @@ def game ()
         new_board.turnTaken()
     end
     if new_board.victory()
-        puts "Player #{winner} wins the game!"
+        puts "Player #{winner} wins the game! :)"
     else
         puts "It was a tie"
     end
